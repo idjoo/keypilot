@@ -1,0 +1,14 @@
+[project]
+name = "keypilot"
+version = "0.0.1"
+description = ""
+authors = [{ name = "Adrianus Vian Habirowo", email = "vian@idjo.cc" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["readchar>=4.0.6"]
+
+[tool.uv]
+package = true
+
+[project.scripts]
+keypilot = "keypilot:main"
